@@ -123,6 +123,9 @@
   gap: 16px;
 }
 
+.btn-early-access:hover {
+  color: #64cf91;
+}
 .btn-early-access {
   display: inline-flex;
   align-items: center;
