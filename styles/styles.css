@@ -106,13 +106,14 @@
 }
 .banner-content h1 {
   font-size: 52px;
-  line-height: 1.2;
+  line-height: 1.6;
   margin-bottom: 20px;
 }
 
 .banner-content p {
   font-size: 18px;
   color: #ffffff;
+  line-height: 1.8;
   margin-bottom: 36px;
 }
 
@@ -122,30 +123,27 @@
   gap: 16px;
 }
 
-.EarlyAccess {
+.btn-early-access {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 16px;
 
   background: #ffffff;
-  color: #2e7d32;
+  color: #469165;
 
   padding: 8px 18px;
   border-radius: 999px;
 
   font-size: 16px;
   font-weight: 500;
-
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 16px;
+  border: none;
+  cursor: pointer;
 }
 
-/* Green icon */
-.icon {
-  width: 10px;
-  height: 10px;
-  background: #469165;
-  border-radius: 50%;
-  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.25);
+.btn-early-access img {
+  width: 16px;
+  height: 16px;
 }
 
 .banner-content {
@@ -221,6 +219,8 @@
 
 .challenges-info .info-card {
   background-color: #ffffff;
+  max-width: 322px;
+  max-height: 300px;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
